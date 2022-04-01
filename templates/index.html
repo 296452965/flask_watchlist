@@ -2,11 +2,20 @@
 {% block content %}
 {# 使用 length 过滤器获取 movies 变量的长度 #}
 <p style="text-align: right">共{{ movies|length }}个电影</p>
+<form method="post">
+    电影名 <input type="text" name="title" autocomplete="off" required>
+    年份 <input type="text" name="year" autocomplete="off" required>
+    <input class="btn" type="submit" name="submit" value="增加">
+</form>
 <ul class="movie-list">
     {% for movie in movies %}
     <li>
         {{ movie.title }} - {{ movie.year }}
         <span class="float-right">
+            <a class="btn" href="{{ url_for('edit', movie_id=movie.id) }}">编辑</a>
+            <form class="inline-form" method="post" action="{{ url_for('delete', movie_id=movie.id) }}">
+                <input class="btn" type="submit" name="delete" value="删除" onclick="return confirm('确定删除吗')">
+            </form>
             <a href="https://search.douban.com/movie/subject_search?search_text={{ movie.title }}" target="_blank" title="Find this movie on douban" class="douban">豆瓣</a>
         </span>
     </li>
