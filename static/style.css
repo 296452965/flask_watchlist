@@ -6,6 +6,31 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+/*导航栏*/
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
 /* 页脚 */
 footer {
     color: #888;
@@ -33,7 +58,7 @@ footer {
 }
 
 .movie-list li:last-child {
-    border-bottom:none;
+    border-bottom: none;
 }
 
 .movie-list li:hover {
@@ -46,17 +71,33 @@ footer {
     margin: 0 auto;
     height: 100px;
 }
+
 .cover {
     margin: 0 auto;
     width: 133px;
     height: 100px;
     position: relative;
 }
+
 .cover:after {
     position: absolute;
     content: '';
     width: 100%;
     height: 100%;
     top: 0;
-    box-shadow:0 0 20px 10px #ffffff inset;
+    box-shadow: 0 0 20px 10px #ffffff inset;
+}
+/*豆瓣样式*/
+.float-right {
+    float: right;
+}
+
+.douban {
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    background: forestgreen;
+    border-radius: 5px;
+    padding: 3px 5px;
 }

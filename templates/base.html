@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% block head %}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <title>{{ user.name }}'的观影单</title>
+    {% endblock %}
+</head>
+<body>
+    <h2>
+        <img src="{{ url_for('static', filename='/images/earth.png')}}" alt="avatar" class="avatar">
+        {{ user.name }}的观影单
+    </h2>
+    <nav>
+        <ul>
+            <li><a href="{{ url_for('index') }}">首页</a></li>
+        </ul>
+    </nav>
+    {% block content %}{% endblock %}
+    <footer>
+        <small>&copy; 2022 <a href="#">Orange Flask</a></small>
+    </footer>
+</body>
+</html>
