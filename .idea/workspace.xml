@@ -2,25 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94581344-526b-4f51-961e-184ef452baed" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../PycharmProjects/bulletin_board/.idea/bulletin_board.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PycharmProjects/bulletin_board/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PycharmProjects/bulletin_board/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PycharmProjects/bulletin_board/admin/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PycharmProjects/bulletin_board/admin/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PycharmProjects/bulletin_board/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PycharmProjects/bulletin_board/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PycharmProjects/bulletin_board/templates/admin/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/../PycharmProjects/bulletin_board/templates/admin/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PycharmProjects/bulletin_board/templates/admin/base_admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/../PycharmProjects/bulletin_board/templates/admin/base_admin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PycharmProjects/bulletin_board/templates/admin/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../PycharmProjects/bulletin_board/templates/admin/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PycharmProjects/bulletin_board/templates/user/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/../PycharmProjects/bulletin_board/templates/user/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PycharmProjects/bulletin_board/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PycharmProjects/bulletin_board/user/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flaskenv" beforeDir="false" afterPath="$PROJECT_DIR$/.flaskenv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/flask_watchlist.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flask_watchlist.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/data.db" beforeDir="false" afterPath="$PROJECT_DIR$/data.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/earth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/physics.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/settings.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchlist/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchlist/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchlist/commands.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchlist/commands.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchlist/error.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchlist/error.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchlist/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchlist/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchlist/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchlist/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,12 +120,13 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PycharmProjects/bulletin_board" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Chengyikang\flask_watchlist" />
       <recent name="C:\Users\Chengyikang\flask_watchlist\static\images" />
       <recent name="C:\Users\Chengyikang\flask_watchlist\static" />
     </key>
@@ -142,7 +145,8 @@
       <workItem from="1648782977292" duration="142000" />
       <workItem from="1648783146903" duration="15917000" />
       <workItem from="1648856185380" duration="1031000" />
-      <workItem from="1648901158082" duration="6695000" />
+      <workItem from="1648901158082" duration="6965000" />
+      <workItem from="1648975842175" duration="12154000" />
     </task>
     <servers />
   </component>

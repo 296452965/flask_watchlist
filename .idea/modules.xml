@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../PycharmProjects/bulletin_board/.idea/bulletin_board.iml" filepath="$PROJECT_DIR$/../PycharmProjects/bulletin_board/.idea/bulletin_board.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/flask_watchlist.iml" filepath="$PROJECT_DIR$/.idea/flask_watchlist.iml" />
     </modules>
   </component>
