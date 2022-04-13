@@ -2,4 +2,4 @@
 一个flask观影单项目的练习
 
 在线Demo地址：
-[Yik chen的观影单](howtouse.pythonanywhere.com)
+[Yik chen的观影单](https://howtouse.pythonanywhere.com)
